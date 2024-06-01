@@ -9,6 +9,11 @@ This is a very basic Python Cookiecutter repo.
 - Clone this repo.
 - Run `cookiecutter mvp-python-cookiecutter`.
 - You will be prompted for the project name. This will be slugified for the repo name and the package name within the repo.
+- You should now have a new repo!
+
+Within the new repo:
+- Run `git init` to initialise it as a Git repo.
+- Run `poetry install` to install packages.
 - Update the `README.md` with project details including how to run your code.
 - Add to the `PULL_REQUEST_TEMPLATE.md` as needed.
 - You will likely need to tweak settings for `ruff`, `mypy` and `poetry` in the `pyproject.toml` file, and the settings for `pre-commit` in `.pre-commit-config.yaml`.
